@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 160, 122, 0.769);
+}
+
+.currency-converter {
+    width: 450px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px rgba(248, 132, 132, 0.689);
+}
+
+h1 {
+    text-transform: uppercase;
+    border-top: 2px grey dashed;
+    border-bottom: 2px grey dashed;
+    padding: 10px;
+    color: rgb(240, 78, 14);
+
+}
+
+.box {
+    width: 100%;
+    height: 200px;
+    background-image: url("./assets/currency.png");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.input-container {
+    margin: 15px 10px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(14, 142, 240);
+    font-weight: 500;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 2px solid rgba(255, 160, 122, 0.769);
+    border-radius: 10px;
+    outline: none;
+    /* to deselect the outline while selecting the box  */
+}
+
+input:focus,
+select:focus {
+    border-color: rgb(240, 78, 14);
+
+}
+
+.result {
+    margin: 30px 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px dotted rgb(14, 142, 240);
+}
+
+.result p {
+    margin: 15px;
+
+    font-weight: bold;
+    text-align: center;
+}
